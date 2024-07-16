@@ -37,7 +37,6 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 I managed to learn the basics of psuedo elements and responsive design.
 
-
 ## Author
 
 - Website - [Recipe Page](https://mue864.github.io/FrontEnd-Solutions/recipePage/)
