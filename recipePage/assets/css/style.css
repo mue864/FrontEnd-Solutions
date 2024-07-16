@@ -1,0 +1,140 @@
+ body {
+    font-family: "Outfit", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    background-color: hsl(30, 54%, 90%);
+    width: 100%;
+    line-height: 1.8em;
+    margin: 20px;
+    color: hsl(30, 10%, 34%);
+}
+
+h1, h2 {
+   font-family: "Young-Serif", sans-serif;
+}
+
+.outfitBody {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.young-serif-regular {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+    color: black;
+}
+
+.card {
+    padding: 20px;
+    width: 35%;
+    position: relative;
+    margin: auto;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+}
+
+.miniCard {
+    
+    margin-top: 30px;
+    background-color: hsl(330, 100%, 98%);
+    color: hsl(30, 10%, 34%);
+    border-radius: 10px; 
+    padding: 20px;
+}
+
+.miniCard h4 {
+    margin-bottom: 0;
+    margin-top: 0;
+    color: hsl(332, 51%, 32%);
+}
+
+.miniCard ul {
+    list-style: none;
+    margin: 0;
+  }
+  
+.miniCard li::before {
+    content: "•";
+    color: hsl(332, 51%, 32%); 
+    font-size: 1.2em;
+    margin-right: 20px;
+  }
+
+.ingredients ul {
+    list-style: none;
+}
+
+.ingredients li::before {
+    content: "•";
+    color: hsl(14, 45%, 36%);
+    font-size: 1.2em;
+    margin-right: 20px;
+}
+
+ol li::marker {
+    color: hsl(14, 45%, 36%);
+  }
+
+.img img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+.textOrange {
+    color: hsl(14, 45%, 36%);
+}
+
+.nutritionValue {
+    font-weight: bold;
+}
+
+
+table {
+    border-collapse: collapse;  /* removes space between cells */
+  }
+  
+  table, th, td {
+    border: none;  /* removes all borders */
+  }
+  
+.test{
+    border-bottom: 1px solid #ccc; 
+  }
+
+  td p{
+    margin-right: 10%;
+    margin-left: 40px;
+  }
+
+  td {
+    padding: 10px;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  @media(max-width: 375px) {
+    .td p{
+      margin-right: 50px;
+      margin-left: 40px;
+    }
+  }
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
