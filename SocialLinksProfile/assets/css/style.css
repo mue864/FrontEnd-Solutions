@@ -5,7 +5,6 @@ body {
     padding: 0;
     font-size: 14px;
     font-weight: 700;
-    width: 100%;
 }
 
 #name {
@@ -31,8 +30,7 @@ body {
 .card {
   position: relative;
   margin: auto;
-  margin-top: 15%;
-  margin-bottom: 15%;
+  margin-top: 250px;
   width: 330px;
   height: 500px;
   background-color: hsl(0, 0%, 12%);
