@@ -40,5 +40,5 @@ I managed to learn the basics of psuedo elements and responsive design.
 
 ## Author
 
-- Website - [Mutsa Murapa](https://mue864.github.io/FrontEnd-Solutions/recipePage/)
+- Website - [Recipe Page](https://mue864.github.io/FrontEnd-Solutions/recipePage/)
 - Frontend Mentor - [@mue864](https://www.frontendmentor.io/profile/mue864)
