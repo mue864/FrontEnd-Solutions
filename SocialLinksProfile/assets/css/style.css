@@ -30,7 +30,8 @@ body {
 .card {
   position: relative;
   margin: auto;
-  margin-top: 250px;
+  margin-top: 15%;
+  margin-bottom: 15%;
   width: 330px;
   height: 500px;
   background-color: hsl(0, 0%, 12%);
