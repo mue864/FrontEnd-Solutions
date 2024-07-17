@@ -1,6 +1,9 @@
 body {
-    margin: 0;
-    padding: 0;
+    background-image:url('../images/pattern-background-desktop.svg');
+    background-color: hsl(225, 100%, 94%);
+    background-repeat: no-repeat;
+    font-weight: 500;
+
 }
 
 .red-hat-display-font {
@@ -10,9 +13,16 @@ body {
   font-style: normal;
 }
 
+img {
+    width: 100%;
+}
 .card {
+    background-color: red;
     position: relative;
     margin: auto;
+    text-align: center;
+    margin-top: 100px;
+    width: 200px;
 }
 
 .attribution { 
