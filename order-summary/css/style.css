@@ -2,6 +2,7 @@ body {
     background-image:url('../images/pattern-background-desktop.svg');
     background-color: hsl(225, 100%, 94%);
     background-repeat: no-repeat;
+    background-size: cover;
     font-weight: 500;
 
 }
@@ -13,16 +14,49 @@ body {
   font-style: normal;
 }
 
-img {
+.card img {
     width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
 .card {
-    background-color: red;
+    background-color: white;
     position: relative;
     margin: auto;
     text-align: center;
     margin-top: 100px;
-    width: 200px;
+    width: 400px;
+    height: 650px;
+    border-radius: 15px;
+}
+
+
+
+.price img {
+    width: 50px;
+    display: block;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 25px;
+}
+
+
+.price {
+    background-color: hsl(225, 100%, 98%);
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+button {
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+    padding: 15px;
+    width: 70%
 }
 
 .attribution { 
