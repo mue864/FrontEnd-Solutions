@@ -1,0 +1,41 @@
+
+body {
+    font-size: 16px;
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+}
+
+.outfit-font {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.card {
+    width: 400px;
+    background-color: red;
+    margin-top: 150px;
+    /* position: relative;
+    margin: auto; */
+}
+
+.card .main {
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.content {
+    width: 70%;
+    overflow: hidden;
+    margin-left: 50px;
+}
+.attribution { 
+    font-size: 11px; text-align: center;
+    position: relative;
+    top: 430px; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
