@@ -4,6 +4,8 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     font-weight: 500;
+    width: 100%;
+    font-size: 16px;
 
 }
 
@@ -29,7 +31,7 @@ body {
     height: 650px;
     border-radius: 15px;
     word-wrap: break-word;
-    box-shadow: 1px 6px 10px 0.1px hsla(245, 75%, 54%, 0.5);
+    box-shadow: -2px 6px 39px 0.1px hsla(245, 75%, 54%, 0.5);
 }
 
 .word-container {
@@ -92,6 +94,7 @@ button {
     margin-top: 20px;
     padding: 15px;
     width: 75%;
+    cursor: pointer;
 }
 
 .payment {
@@ -102,11 +105,18 @@ button {
     box-shadow: 1px 6px 10px 0.1px hsla(245, 75%, 54%, 0.5);
 }
 
+.payment:hover {
+    background-color: hsl(245, 87%, 64%);
+}
+
 .cancel {
     background-color: white;
     font-weight: 700;
     color: hsl(224, 23%, 55%);
+}
 
+a:hover {
+    color:hsl(245, 87%, 64%);
 }
 
 .attribution { 
