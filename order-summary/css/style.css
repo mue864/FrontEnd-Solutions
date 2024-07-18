@@ -28,9 +28,18 @@ body {
     width: 400px;
     height: 650px;
     border-radius: 15px;
+    word-wrap: break-word;
+    box-shadow: 1px 6px 10px 0.1px hsla(245, 75%, 54%, 0.5);
 }
 
-
+.word-container {
+    max-width: 300px;
+    text-align: center;
+    margin: auto;
+}
+.word-container span {
+    color: hsl(224, 23%, 55%);
+}
 
 .price img {
     width: 50px;
@@ -43,24 +52,67 @@ body {
 
 .price {
     background-color: hsl(225, 100%, 98%);
-    width: 80%;
+    width: 340px;
     margin: auto;
     margin-top: 20px;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.price p {
+    position: relative;
+    margin: 0;
+    right: 40px;
+}
+
+.price #amt {
+    color: hsl(224, 23%, 55%);
+}
+
+
+.price a {
+    position: relative;
+    left: 120px;
+    bottom: 30px;
+   
+}
+
+
+#plan  {
+    margin-top: 28px; 
+    font-weight: 700;
 }
 
 button {
     display: block;
     margin: auto;
-    border-radius: 5px;
+    border-radius: 10px;
     border: none;
-    margin-top: 10px;
+    margin-top: 20px;
     padding: 15px;
-    width: 70%
+    width: 75%;
+}
+
+.payment {
+    margin-top: 50px;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    font-weight: 700;
+    box-shadow: 1px 6px 10px 0.1px hsla(245, 75%, 54%, 0.5);
+}
+
+.cancel {
+    background-color: white;
+    font-weight: 700;
+    color: hsl(224, 23%, 55%);
+
 }
 
 .attribution { 
     font-size: 11px; text-align: center; 
+    position: relative;
+    top: 150px;
 }
 
 .attribution a { 
