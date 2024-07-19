@@ -16,6 +16,19 @@ body {
 
 .card {
     width: 300px;
+    position: relative;
+    margin: auto;
+    background-color: hsl(216, 50%, 16%);
+}
+
+#equilibrium {
+    width: 100%
+}
+
+#avatar {
+    width: 40px;
+    position: relative;
+    top: 10px;
 }
 
 .attribution { 
