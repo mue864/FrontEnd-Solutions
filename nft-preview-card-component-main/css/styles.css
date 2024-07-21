@@ -4,7 +4,7 @@ body {
     padding: 0;
     line-height: 1.8em;
     background-color: hsl(217, 54%, 11%);
-    color: white;
+    color: hsl(215, 51%, 70%);
 }
 
 .outfit-font {
@@ -15,20 +15,78 @@ body {
 }
 
 .card {
-    width: 300px;
+    width: 400px;
     position: relative;
     margin: auto;
+    margin-top: 100px;
     background-color: hsl(216, 50%, 16%);
+    border-radius: 20px;
+    height: 680px;
 }
 
-#equilibrium {
-    width: 100%
+.card #equilibrium {
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 25px;
+    width: 350px;
 }
 
+h3 {
+    color: hsl(0, 0%, 100%);
+}
 #avatar {
     width: 40px;
     position: relative;
-    top: 10px;
+    top: 20px;
+    left: 1.8rem;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+#name { 
+    position: relative;
+    bottom: 2.8rem;
+    left: 5.6rem;
+}
+
+span {
+    color: hsl(178, 100%, 50%);
+}
+
+#clock {
+    position: relative;
+    top: 0.05rem;
+    left: 8.5rem;
+}
+
+#days {
+    display: inline;
+    position: relative;
+    left: 8.5rem;
+}
+
+#price {
+    display: inline;
+    position: relative;
+    left: 0.08rem;
+    color: hsl(178, 100%, 50%);
+}
+
+hr {
+    position: relative;
+    top: 0.5em;
+    border-color: hsl(215, 51%, 70%);
+}
+
+#ethereum {
+    position: relative;
+    top: 0.06rem;
+}
+
+.content {
+    width: 87%;
+    position: relative;
+    margin: auto;
 }
 
 .attribution { 
