@@ -29,11 +29,19 @@ body {
     margin-top: 20px;
     margin-left: 25px;
     width: 350px;
+    z-index: 2;
 }
 
 h3 {
     color: hsl(0, 0%, 100%);
 }
+
+h3:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+
 #avatar {
     width: 40px;
     position: relative;
@@ -49,8 +57,18 @@ h3 {
     left: 5.6rem;
 }
 
-span {
+#creation {
     color: hsl(178, 100%, 50%);
+}
+
+#name:hover {
+    #creation {
+        color:  hsl(215, 51%, 70%);
+    }
+
+    #creator{
+        color: hsl(178, 100%, 50%)
+    }
 }
 
 #clock {
@@ -70,6 +88,28 @@ span {
     position: relative;
     left: 0.08rem;
     color: hsl(178, 100%, 50%);
+
+}
+#equilibrium:hover {
+    cursor: pointer;
+    opacity: 0.5;
+
+    .overlay {
+        opacity: 1;
+    }
+}
+
+
+.overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 44%;
+    flex-direction: row;
+    bottom: 68%;
+    transition: .3s ease;
+    opacity: 0;
 }
 
 hr {
