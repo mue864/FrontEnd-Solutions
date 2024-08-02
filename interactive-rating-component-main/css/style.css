@@ -36,6 +36,7 @@ img {
     margin-top: 15px;
 }
 
+
 .numbers {
     position: relative;
     display: flex;
@@ -93,7 +94,6 @@ h3 {
     align-items: center;
     position: relative;
     top: 2rem;
-    
 }
 
 #button6 {
@@ -110,6 +110,49 @@ h3 {
 }
 
 
+/* must be implemented in js */
+.hide-page {
+    display: none;
+}
+
+/*for second page */
+#thank-you {
+    width: 200px;
+    position: relative;
+    left: 4rem;
+    top: 1rem;
+}
+
+.second-page {
+    display: none;
+}
+.choice-result {
+    display: inline;
+}
+
+.result {
+    color: hsl(25, 97%, 53%);
+    text-align: center;
+    margin-top: 40px;
+}
+
+.warning {
+    background-color: red;
+    transition: 0.2s ease;
+}
+.thank-you {
+    text-align: center;
+    margin-top: 30px;
+    max-width: 330px;
+    height: 120px;
+    position: relative;
+    left: 2rem;
+}
+
+.thank-you p {
+    margin-top: 10px;
+    line-height: 22px;
+}
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
