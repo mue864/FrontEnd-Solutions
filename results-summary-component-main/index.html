@@ -5,14 +5,42 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./styles/styles.css">
   
   <title>Frontend Mentor | Results summary component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <section>
+    <div class="card">
+      <div class="sub-cards">
+        <div class="result">
+          <h3>Your Result</h3>
+          <div class="resultCircle">
+            <div class="resultNumber">
+              <h1 id="userResult">76</h1>
+              <p>of 100</p>
+            </div>
+          </div>
+        </div>
+        <div class="summary">
+          <h3>Summary</h3>
+          <div class="reaction">
+            <img src="./assets/images/icon-reaction.svg" alt="reaction_img"> <span id="reaction">Reaction</span>
+          </div>
+          <div class="memory">
+            <img src="./assets/images/icon-memory.svg" alt="memory_img"> <span id="memory">Memory</span>
+          </div>
+          <div class="verbal">
+            <img src="./assets/images/icon-verbal.svg" alt="verbarl_img"> <span>Verbal</span>
+          </div>
+          <div class="visual">
+            <img src="./assets/images/icon-visual.svg" alt="visual_img"> <span>Visual</span>
+          </div>
+
+          <button>Continue</button>
+        </div>
+      </div>
+    </div>
+  </section>
 </head>
 <body>
 
