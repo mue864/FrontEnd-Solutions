@@ -43,6 +43,7 @@
               </label>
               </div>
               
+              
   
               <div class="flex-row">
                 <!-- Mortgage term input -->
@@ -60,20 +61,24 @@
               </div>
               
                 <br>
-              <div class="repayment">
+              
                   <!-- repayment input -->
                 <span> Mortgage Type</span>
-              <label for="repayment" class="repay">
-                <input type="radio" name="repayment" class="mortgageType">
-                <span>Repayment</span>
-              </label>
+              <div class="radio_container">
+                <label class="repay">
+                  <input type="radio" name="option" value="Repayment" class="mortgageType" id="repayment" onclick="changeRadioColor(this)">
+                  Repayment
+                </label>
+              </div>
               
               <!-- interest radio button -->
-              <label for="Interest">
-                <input type="radio" name="Interest" class="mortgageType"> 
+             <div class="radio_container">
+              <label>
+                <input type="radio" name="option" class="mortgageType" onclick="changeRadioColor(this)"> 
                 <span>Interest Only</span>
               </label>
-              </div>
+             </div>
+              
   
               <!-- submit buton -->
               <!-- <input type="submit" class="submitButton"> -->
@@ -117,5 +122,7 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
   </div> -->
+
+  <script src="./assets/js/app.js"></script>
 </body>
 </html>

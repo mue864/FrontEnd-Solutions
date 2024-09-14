@@ -17,6 +17,8 @@
     margin: 0 auto;
     border-bottom-right-radius: 15px;
     border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
     padding: 0 0 0 20px ;
   }
 
@@ -71,18 +73,20 @@
     margin-top: 5px;
   }
 
-  .repay{
-    margin-bottom: 20px;
-  }
-
-  .repayment {
+  .radio_container {
     display: flex;
     flex-direction: column;
   }
-  .repayment label {
+  .radio_container {
     border: black 1px solid;
+    border-radius: 5px;
     padding: 5px;
     width: 270px;
+    margin-bottom: 10px;
+  }
+
+  .selected {
+    background-color: red;
   }
 
   .textInfo {
@@ -93,6 +97,8 @@
   .mortgageTerm {
     width: 120px;
   }
+
+
 
   .attribution { font-size: 11px; text-align: center; }
   .attribution a { color: hsl(228, 45%, 44%); }
