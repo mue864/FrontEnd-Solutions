@@ -1,0 +1,98 @@
+  @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+  body {
+    font-family: "Plus Jakarta Sans";
+    background-color: hsl(202, 86%, 94%);
+  }
+
+  .container {
+    align-content: center;
+    height: 100vh;
+  }
+  .row {
+    display: flex;
+    background-color: hsl(0, 0%, 100%);
+    width: 600px;
+    height: 350px;
+    margin: 0 auto;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 0 0 0 20px ;
+  }
+
+  .row1 {
+    width: 300px !important;
+    
+  }
+
+  .heading {
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+  }
+  .clear {
+    font-size: 12px;
+    align-self: center;
+  }
+
+  .row2 {
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(202, 55%, 16%);
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width: 300px;
+  }
+
+  .flex-row {
+    display: flex;
+    gap: 20px;
+  }
+
+  .flex-row label {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    display: inline;
+  }
+
+  
+
+  .h3 {
+    display: inline;
+  }
+
+  .mortgageAmt {
+    margin-bottom: 20px;
+  }
+
+  .label {
+    height: 20px;
+    margin-top: 5px;
+  }
+
+  .repay{
+    margin-bottom: 20px;
+  }
+
+  .repayment {
+    display: flex;
+    flex-direction: column;
+  }
+  .repayment label {
+    border: black 1px solid;
+    padding: 5px;
+    width: 270px;
+  }
+
+  .textInfo {
+    font-size: 10px;
+    padding-bottom: 20px;
+  }
+  
+  .mortgageTerm {
+    width: 120px;
+  }
+
+  .attribution { font-size: 11px; text-align: center; }
+  .attribution a { color: hsl(228, 45%, 44%); }

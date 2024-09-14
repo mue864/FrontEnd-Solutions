@@ -11,62 +11,111 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
   
   <title>Frontend Mentor | Mortgage repayment calculator</title>
 
   
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-
-  </style>
+  
 </head>
-<body class="plus-jakarta-sans">
+<body>
 
-  <div class="wrapper">
-    
-  </div>
-  Mortgage Calculator
-  Clear All
+  <section class="wrapper">
+    <!-- Container to be made flex -->
+    <div class="container">
+      <div class="row">
+        <!-- Form is coming here -->
+        <div class="row1">
+          <div class="heading">
+            <h4 class="h3">Mortgage Calculator</h4>
+            <a href="#" class="clear">Clear All</a>
+          </div>
 
-  Mortgage Amount
+          <div class="form">
+            <form action="#">
+              <!-- Mortgage amt -->
+              <div class="mortgageAmt">
+                <!-- Mortgage amt input -->
+              <label for="Mortgage_Amount" id="mortgageAmt">
+                <span class="textInfo">Mortgage Amount</span>
+                <br>
+                <input type="text" name="Mortgage_Amount" id="MortgageAmt" class="label">
+              </label>
+              </div>
+              
+  
+              <div class="flex-row">
+                <!-- Mortgage term input -->
+              <label for="term">
+                <span class="textInfo">Mortgage Term</span>
+                <br>
+                <input type="text" name="term" id="mortageterm" class="mortgageTerm label">
+              </label>
+  
+              <!-- Interest rate input -->
+              <label for="rate">
+                <span class="textInfo interestRate">Interest Rate</span>
+                <input type="text" name="rate" id="mortagerate" class="mortgageTerm label">
+              </label>
+              </div>
+              
+                <br>
+              <div class="repayment">
+                  <!-- repayment input -->
+                <span> Mortgage Type</span>
+              <label for="repayment" class="repay">
+                <input type="radio" name="repayment" class="mortgageType">
+                <span>Repayment</span>
+              </label>
+              
+              <!-- interest radio button -->
+              <label for="Interest">
+                <input type="radio" name="Interest" class="mortgageType"> 
+                <span>Interest Only</span>
+              </label>
+              </div>
+  
+              <!-- submit buton -->
+              <!-- <input type="submit" class="submitButton"> -->
+            </form>
+          </div>
+        </div>
 
-  Mortgage Term
+        <!-- Results here -->
+         <div class="row2">
+          <h2>Your Results</h2>
+          <p>Your results are shown below based on the information you provided. 
+            To adjust the results, edit the form and click “calculate repayments” again.</p>
+         </div>
 
-  Interest Rate
+      </div>
 
-  Mortgage Type
-  Repayment
-  Interest Only
+    </div>
+  </section>
+  
+ 
 
-  Calculate Repayments
-
-  <!-- Empty results start -->
-
-  Results shown here
+ 
+  <!-- Results shown here
 
   Complete the form and click “calculate repayments” to see what 
   your monthly repayments would be.
 
-  <!-- Empty results end -->
-
-  <!-- Completed results start -->
+ 
 
   Your results
 
-  Your results are shown below based on the information you provided. 
-  To adjust the results, edit the form and click “calculate repayments” again.
+  
 
   Your monthly repayments
 
-  Total you'll repay over the term
+  Total you'll repay over the term -->
 
   <!-- Completed results end -->
   
-  <div class="attribution">
+  <!-- <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
-  </div>
+  </div> -->
 </body>
 </html>
